@@ -10,9 +10,3 @@ spring:
       server:
         native:
           search-locations: classpath:/shared #检索配置路径
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/ #注册中心地址
-  instance:
-    prefer-ip-address: true #是否将当前IP注册到Eureka Server
