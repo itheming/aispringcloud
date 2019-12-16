@@ -10,17 +10,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.southwind</groupId>
-    <artifactId>configserver</artifactId>
+    <artifactId>zipkinclient</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
             <version>2.0.2.RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <version>2.0.2.RELEASE</version>
         </dependency>
     </dependencies>
