@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8762  #本地configserver的发麻花纹;
+      fail-fast: true #设置客户端优先判断configserver获取是否正常
+  #目标配置文件名是通过 name与active拼接获得(configclient-dev.yml)
